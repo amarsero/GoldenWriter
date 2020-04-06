@@ -1,8 +1,10 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=40 format=2]
 
-[ext_resource path="res://ForgottenDungeon.png" type="Texture" id=1]
-[ext_resource path="res://Writter.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Golden.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Sprites/ForgottenDungeon.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Writter.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Golden.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Gate.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Button.tscn" type="PackedScene" id=5]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -402,6 +404,7 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 [node name="Level" type="Node2D"]
 
 [node name="Background" type="TileMap" parent="."]
+z_index = -5
 tile_set = SubResource( 34 )
 cell_size = Vector2( 16, 16 )
 cell_y_sort = true
@@ -412,7 +415,6 @@ __meta__ = {
 }
 
 [node name="Foreground" type="TileMap" parent="."]
-z_index = 1
 tile_set = SubResource( 34 )
 cell_size = Vector2( 16, 16 )
 cell_y_sort = true
@@ -427,3 +429,16 @@ position = Vector2( 138.202, 74.4557 )
 
 [node name="Golden" parent="." instance=ExtResource( 3 )]
 position = Vector2( 88.2159, 45.787 )
+
+[node name="Gate" parent="." instance=ExtResource( 4 )]
+position = Vector2( 294.069, 161.649 )
+height = 5
+open = false
+
+[node name="Button" parent="." instance=ExtResource( 5 )]
+position = Vector2( 42.358, 142 )
+
+[node name="Button2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 455, 158 )
+[connection signal="open" from="Button" to="Gate" method="change_state"]
+[connection signal="open" from="Button2" to="Gate" method="change_state"]

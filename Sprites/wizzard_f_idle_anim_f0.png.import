@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wizzard_f_idle_anim_f0.png-ce8ed9b7b33f31ae58127ccf64184311.stex"
+path="res://.import/wizzard_f_idle_anim_f0.png-d392ee636fbb5183922eace04672e1c3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://wizzard_f_idle_anim_f0.png"
-dest_files=[ "res://.import/wizzard_f_idle_anim_f0.png-ce8ed9b7b33f31ae58127ccf64184311.stex" ]
+source_file="res://Sprites/wizzard_f_idle_anim_f0.png"
+dest_files=[ "res://.import/wizzard_f_idle_anim_f0.png-d392ee636fbb5183922eace04672e1c3.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ForgottenDungeon.png-c73c5be266b12ebebe664edf0f733206.stex"
+path="res://.import/Gate.png-0b406c82cd815f015cfebc48ae259ede.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ForgottenDungeon.png"
-dest_files=[ "res://.import/ForgottenDungeon.png-c73c5be266b12ebebe664edf0f733206.stex" ]
+source_file="res://Sprites/Gate.png"
+dest_files=[ "res://.import/Gate.png-0b406c82cd815f015cfebc48ae259ede.stex" ]
 
 [params]
 

@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GoldenWriter"
-run/main_scene="res://Level0.tscn"
+run/main_scene="res://Scenes/Level0.tscn"
 config/icon="res://icon.png"
 
 [input]
