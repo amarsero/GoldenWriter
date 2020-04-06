@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knight-sprite-sheet.png-69910aadf87505136a16fb819daf7250.stex"
+path="res://.import/wizzard_f_idle_anim_f0.png-ce8ed9b7b33f31ae58127ccf64184311.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://knight-sprite-sheet.png"
-dest_files=[ "res://.import/knight-sprite-sheet.png-69910aadf87505136a16fb819daf7250.stex" ]
+source_file="res://wizzard_f_idle_anim_f0.png"
+dest_files=[ "res://.import/wizzard_f_idle_anim_f0.png-ce8ed9b7b33f31ae58127ccf64184311.stex" ]
 
 [params]
 
